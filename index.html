@@ -21,14 +21,9 @@
 
 <script>
 
-var arr = document.URL.match(/versionCode=([0-9.]+)/)
-var version = arr[1];
-var arr = document.URL.match(/build=([0-9.]+)/)
-var build   = arr[1];
-document.write("Your Play Store version: " + version + "Build " + build);
-
-var versionCode = location.search.split('versionCode=')[1] ? location.search.split('versionCode=')[1] : 'Not available';
-document.write("Your Play Store version: " + versionCode);
+var version = location.search.split('versionCode=')[1] ? location.search.split('versionCode=')[1] : 'Not available';
+var build   = location.search.split('build=')[1] ? location.search.split('build=')[1] : 'Not available';
+document.write("Your Play Store version: " + versionCode + " Build " + build);
 </script>
 
 
