@@ -21,7 +21,10 @@
 
 <script>
 var myParam = location.search.split('myParam=')[1]
-document.write(myParam);
+
+if myParam != null {
+  document.write(myParam);
+}
 </script>
 
 
