@@ -22,10 +22,8 @@
 <script>
 var versionCode = location.search.split('versionCode=')[1]
 
-if versionCode != "undefined" {
-  <p>Your Play Store version is:
-  document.write(versionCode);
-  </p>
+if versionCode != null {
+  <p>Your Play Store version is: document.write(versionCode);</p>
 }
 </script>
 
