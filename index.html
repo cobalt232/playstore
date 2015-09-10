@@ -21,11 +21,10 @@
 
 <script>
 
-var query    = location.search;
+var uri      = location.search;
 var version  = uri.queryKey['versionCode'];
 var build    = uri.queryKey['build'];
 document.write("Your Play Store version: " + version + "Build " + build);
-
 
 var versionCode = location.search.split('versionCode=')[1] ? location.search.split('versionCode=')[1] : 'Not available';
 document.write("Your Play Store version: " + versionCode);
