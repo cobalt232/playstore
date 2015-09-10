@@ -20,10 +20,12 @@
 
 
 <script>
-var myParam = location.search.split('myParam=')[1]
+var versionCode = location.search.split('versionCode=')[1]
 
-if myParam != null {
-  document.write(myParam);
+if versionCode != "undefined" {
+  <p>Your Play Store version is:
+  document.write(versionCode);
+  </p>
 }
 </script>
 
