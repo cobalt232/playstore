@@ -21,9 +21,10 @@
 
 <script>
 
-var arr = document.URL.match(/room=([0-9]+)/)
+var arr = document.URL.match(/versionCode=([0-9]+)/)
 var version = arr[1];
-var build   = arr[2];
+var arr = document.URL.match(/build=([0-9]+)/)
+var build   = arr[1];
 document.write("Your Play Store version: " + version + "Build " + build);
 
 var versionCode = location.search.split('versionCode=')[1] ? location.search.split('versionCode=')[1] : 'Not available';
