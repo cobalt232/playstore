@@ -21,9 +21,12 @@
 
 <script>
 var version = location.search.split('version=')[1] ? location.search.split('version=')[1] : 'Not available';
-document.write("Your installed Play Store version:\n\r");
-document.write(version);
+document.getElementById('version').innerHTML = version;
 </script>
+
+<pYour installed Play Store version:<br>
+<p id="version"></p>
+
 <p>Latest available Play Store version:<br>
 5.9.11-build3</p>
 
