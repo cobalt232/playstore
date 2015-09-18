@@ -15,8 +15,10 @@
       <h2 class="project-tagline">Google Play Store for Blackberry devices</h2>
       <script>var version = location.search.split('version=')[1] ? location.search.split('version=')[1] : 'Not available';</script>
       <p>Installed version: <script type="text/javascript">document.write(version)</script></p>
-      <p>Latest version: 5.9.11-build4</p>
-      <a href="http://homepage.bluewin.ch/simonsmith/files/com.android.vending-5.9.11-cobalt-build4.apk" class="btn">Download update</a>
+      <p>Latest version: 5.9.12-build1</p>
+      <a href="http://homepage.bluewin.ch/simonsmith/files/com.android.vending-5.9.12-cobalt-build1.apk" class="btn">Download update</a>
+      <a href="#changelog" class="btn">View Changelog</a>
+
     </section>
 
     <section class="main-content">
@@ -97,8 +99,8 @@ Install com.android.vending. Run and enjoy the Play Store!</p>
 <p>Download Blackberry Google ID 2.2 [Released on August 17, 2015]<br>
 <a href="http://homepage.bluewin.ch/simonsmith/files/cobalt.blackberry.googleid-2.2.apk">Download</a></p>
 
-<p>Download Google Play Store 5.9.11 build 4 [Released on September 11, 2015]<br>
-<a href="http://homepage.bluewin.ch/simonsmith/files/com.android.vending-5.9.11-cobalt-build4.apk">Download</a></p>
+<p>Download Google Play Store 5.9.12 build 1 [Released on September 18, 2015]<br>
+<a href="http://homepage.bluewin.ch/simonsmith/files/com.android.vending-5.9.12-cobalt-build1.apk">Download</a></p>
 
 <h3>
 <a id="frequently-asked-questions-faq" class="anchor" href="#frequently-asked-questions-faq" aria-hidden="true"><span class="octicon octicon-link"></span></a>Frequently Asked Questions (FAQ)</h3>
@@ -113,7 +115,7 @@ If you see that message in Blackberry Google ID, you have either entered a wrong
 
 <p>a) Turn off 2-Step Verification for your Google account here: <a href="https://myaccount.google.com/security#signin">https://myaccount.google.com/security#signin</a>. Then enter your normal Google email password in Blackberry Google ID to login. This is the easiest way to get it running.<br>
 OR<br>
-b) Create an app specific password for the Blackberry Google ID app and use that password to login from Blackberry Google ID. </p>
+b) Create an <a href="https://support.google.com/accounts/answer/185833?hl=en">app specific password</a> for the Blackberry Google ID app and use that password to login from Blackberry Google ID. </p>
 
 <p><strong>I'm seeing the message "Error while retrieving information from server [DF-DFERH-01]"</strong><br>
 This error may occour if Google changes something on their servers and the Play Store app did not sync correctly. It is a well know issue that also happens on Android devices. To fix this problem, go to Blackberry Settings -&gt; App Manager -&gt; Device Monitor -&gt; Storage -&gt; Play Store and click on "Clear Data". This will clear the cache and fix the problem.</p>
@@ -123,10 +125,13 @@ By default Play Store automatically downloads updates for your installed apps. T
 
 <p><strong>I downloaded an app from Play Store and now it's asking for Google Play Services</strong><br>
 Google Play services is a Framework that is provided by Google to help developers to speed up and simplify app development. Some apps that you download from Play Store may require Google Play services (mostly apps from Google, apps that display some kind of geographic map and apps that require Google+ login). These apps can be patched and will work to a certain extent. Read this post for more details:
-Cobalt's official Google Apps landing page</p>
+<a href="http://forums.crackberry.com/android-apps-amazon-store-apk-files-f413/cobalts-official-google-apps-landing-page-965257/#post10933307">Cobalt's official Google Apps Landing Page</a></p>
 
 <p><strong>Are you logging my account data or stealing my money?</strong><br>
 I can assure that no data is logged or transferred anywhere else than to the Google servers. Your data and your money is secure.</p>
+
+<p><strong>Where can I get help if everything goes wrong?</strong><br>
+For help and support check my <a href="http://forums.crackberry.com/android-apps-amazon-store-apk-files-f413/google-play-store-blackberry-10-read-first-post-instructions-985344/#post11189556">Play Store thread on Crackberry</a>
 
 <p><strong>Is this all for free?</strong><br>
 Yes, it is! But please consider that I've spent hundreds of hours doing the reverse engineering of all this stuff, patching it, rewriting code and testing it. So if you really appreciate my work, I would be happy if you donate a few bucks. But it's up to you.</p>
@@ -134,34 +139,13 @@ Yes, it is! But please consider that I've spent hundreds of hours doing the reve
 <p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=cobalt232%40bluewin%2ech&amp;lc=CH&amp;item_name=Support%20Cobalt%27s%20work%20by%20donating%20a%20few%20bucks&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">Support my work with a donation</a></p>
 
 <h3>
-<a id="translations" class="anchor" href="#translations" aria-hidden="true"><span class="octicon octicon-link"></span></a>TRANSLATIONS</h3>
-
+<a id="changelog" class="anchor" href="#changelog" aria-hidden="true"><span class="octicon octicon-link"></span></a>CHANGELOG</h3>
 <hr>
 
-<p>You can help to enhance the usability of Blackberry Google ID app by providing translations for the user interface. Just download the resources file, translate the strings to your language and drop me a PM. I will then include your language into the Blackberry Google ID app.</p>
-
-<p>Download strings.xml<br>
-<a href="http://homepage.bluewin.ch/simonsmith/files/strings.xml">Download</a></p>
-
-<p>Currently available languages:</p>
-
+<p>Google Play Store 5.9.12</p>
 <ul>
-<li>Arabic (by Iyhab Mourad Seneca)</li>
-<li>Bulgarian (by D-meter)</li>
-<li>Czech (by David Foltýn)</li>
-<li>Chinese (by Cyan)</li>
-<li>Dutch (by Kweniehoor )</li>
-<li>English (by cobalt)</li>
-<li>French (by Steven Robart)</li>
-<li>German (by cobalt)</li>
-<li>Hindi (by karthikappu47)</li>
-<li>Indonesian (by Rudiantara)</li>
-<li>Italian (by Federico Cucinella)</li>
-<li>Polski (by Melthalion)</li>
-<li>Russian (by Alexander Drachev)</li>
-<li>Spanish (by J. Sarmiento &amp; R. I. Muller)</li>
-<li>Tieng Viet (by Ngoc Anh)</li>
-<li>Turkish (by bermie2000)</li>
+<li>New: Autoupdates for installed apps are not turned off by default</li>
+<li>Fix: Obb files are now handled correctly again</li>
 </ul>
 
       <footer class="site-footer">
